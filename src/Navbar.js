@@ -1,8 +1,15 @@
 import {Link} from 'react-router-dom';
 import amazonLogo from './images/amazon-logo-white.png'
 import cartIcon from './images/icons/cart-icon.png'
+import { NumberofItems } from './data/cart';
+import { useEffect } from 'react';
 
-const Navbar = () => {
+const Navbar = ({cartQuantity}) => {
+
+  useEffect(()=>{
+
+  }, [cartQuantity])
+
   return ( 
     <nav className="amazon-header">
       <div className="amazon-header-left-section">
@@ -15,7 +22,7 @@ const Navbar = () => {
           </Link>
         <Link to = "/cart" className = "cart-link header-link">
           <img src= {cartIcon} className="cart-icon"/>
-          <div className="cart-quantity">0</div>
+          <div className="cart-quantity">{cartQuantity}</div>
           <div className="cart-text">Cart</div>
         </Link>
       </div>

@@ -6,7 +6,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar></Navbar>
         <Main/>
       </div>
     </Router>

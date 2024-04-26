@@ -20,7 +20,7 @@ const Navbar = ({cartQuantity}) => {
           <span className="returns-text">Returns</span>
           <span className="orders-text">& Orders</span>
           </Link>
-        <Link to = "/cart" className = "cart-link header-link">
+        <Link to = "/checkout" className = "cart-link header-link">
           <img src= {cartIcon} className="cart-icon"/>
           <div className="cart-quantity">{cartQuantity}</div>
           <div className="cart-text">Cart</div>

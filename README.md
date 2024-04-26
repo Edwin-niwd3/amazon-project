@@ -1,3 +1,26 @@
+# This is a remake of my old javascript project, where I made the Amazon website solely using javascript
+
+I am in the process of making the Amazon website again by using React, I am doing this on my own, and it will be published as soon as it is finished as a website through Git Hub.
+
+# Currently need to do
+
+- Make the Checkout Page
+  - Show products currently in the cart
+  - Offer button that allows user to change the amount of any item in the cart
+  - Allow users to delete items from the cart
+  - Allow users to select an arrival date
+  - Create a total price section.
+    - The total price section should be dynamic, changing depending on what option the user selects for their items in the cart
+    - Total price should also change based on what arrival date the user wants
+- Make the Orders Page
+  - Feature all the products that have been ordered, and when they will arrive
+  - Allow users to track any specific product to see what the progress on the product is
+- Implement a Search function into the website
+  - Allow users to search for a specific product (Maybe be able to suggest products depending on how closely it is spelled?
+- Implement a Tracking page for a specific ordered product through the Orders page
+  - A simple green bar that progresses depending on how far along the date has progressed
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

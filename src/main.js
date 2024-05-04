@@ -20,6 +20,7 @@ const Main = () => {
   
 
   return ( 
+    
     <div className="main">
       <Navbar cartQuantity={cartQuantity}></Navbar>
       <div className="products-grid">
